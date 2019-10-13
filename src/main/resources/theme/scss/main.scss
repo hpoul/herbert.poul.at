@@ -1,6 +1,10 @@
-$primary: #626BC6;
-$secondary: #97c965;
-@import 'node_modules/bulma/sass/utilities/initial-variables';
-@import 'node_modules/bulma/bulma';
+
+$primary: #87b220;
+$secondary: #394E06;
+$link: $primary;
+
+@import '~bulma/sass/utilities/initial-variables';
+@import '~bulma/bulma';
+
 
 
