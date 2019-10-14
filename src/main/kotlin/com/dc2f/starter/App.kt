@@ -2,12 +2,12 @@ package com.dc2f.starter
 
 import com.dc2f.common.*
 import com.dc2f.common.contentdef.BaseWebsite
-import com.dc2f.common.theme.baseTheme
-import com.dc2f.render.*
+import com.dc2f.common.theme.BaseTheme
+import com.dc2f.render.ThemeConfig
 
-class WebsiteTheme : Theme() {
+class WebsiteTheme : BaseTheme() {
     override fun configure(config: ThemeConfig) {
-        baseTheme()
+        super.configure(config)
     }
 }
 
