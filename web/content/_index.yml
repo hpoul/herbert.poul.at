@@ -1,8 +1,18 @@
 name: 'Starter Site for dc2f'
+navBar:
+  logo: psax-blog-logo.png
+  title: " What's keeping me busy."
 config:
   url:
     protocol: 'https'
     host: 'starter.dc2f.com'
   favicons: []
-mainMenu: []
+  logo: 'psax-blog-logo.png'
+mainMenu:
+  - name: Home
+    ref: /
+  - name: About
+    ref: /about
+  - name: Photo Gallery
+    url: http://photo.poul.at/
 footerMenu: []

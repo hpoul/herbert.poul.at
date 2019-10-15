@@ -1,0 +1,9 @@
+seo:
+  title: '404 Page Not Found'
+  description: 'Page was not found.'
+includeInSitemap: false
+renderOnlyHtml: true
+renderPath: /404.html
+#embed:
+#  references:
+#    surveysparrow: /partials/surveysparrow

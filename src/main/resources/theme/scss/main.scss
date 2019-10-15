@@ -3,8 +3,41 @@ $primary: #87b220;
 $secondary: #394E06;
 $link: $primary;
 
+$navbar-background-color: $primary;
+
 @import '~bulma/sass/utilities/initial-variables';
 @import '~bulma/bulma.sass';
 
+.navbar.main-navbar {
+  //@extend .is-primary;
 
+
+  .navbar-item {
+    font-family: monospace;
+    font-weight: bold;
+  }
+
+  .navbar-brand {
+    margin-left: 0;
+
+    > a.navbar-item {
+
+      &:hover {
+        background-color: transparent;
+      }
+      padding: 0;
+      img {
+
+        max-height: $navbar-height;
+      }
+      span {
+        color: $secondary;
+        margin-left: 1rem;
+        font-weight: bold;
+        margin-right: 1rem;
+        font-family: monospace;
+      }
+    }
+  }
+}
 
